@@ -3,6 +3,9 @@
 	"version": "0.1.1",
 	"description": "Icon component for Svelte",
 	"main": "lib/svg-icon.svelte",
+	"exports": {
+		"types": "./index.d.ts"
+	},
 	"directories": {
 		"lib": "lib",
 		"test": "tests"
