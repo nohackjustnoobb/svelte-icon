@@ -1,6 +1,6 @@
 /// <reference types="svelte" />
 
-import { SvelteComponentTyped } from 'svelte';
+import { SvelteComponentTyped } from "svelte";
 
 declare module SvgIcon {
   export interface SvgIconProps {
@@ -31,7 +31,7 @@ declare module SvgIcon {
   }
 }
 
-type Props = SvgIcon.SvgIconProps;
+type Props = SvgIcon.SvgIconProps & { [attribute: string]: any };
 
 declare class SvgIcon extends SvelteComponentTyped<Props> {}
 export = SvgIcon;
