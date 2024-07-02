@@ -4,7 +4,8 @@
 	"description": "Icon component for Svelte",
 	"main": "lib/svg-icon.svelte",
 	"exports": {
-		"types": "./index.d.ts"
+		"types": "./index.d.ts",
+		"svelte": "./lib/svg-icon.svelte"
 	},
 	"directories": {
 		"lib": "lib",
